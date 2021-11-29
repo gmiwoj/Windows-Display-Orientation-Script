@@ -41,12 +41,14 @@ so :
 - `... windows-screen-rotate-script.ps1" 1 90`  means second display, 90 degrees cw (vertical inverted)
 
 
-can only rotate by 90 in one go for some reason, can't go from 0 straight to 180, needs 2 steps).
+### notes :
 
-can't set screen xy position in relation to other screens as possible with Display settings menu. 
+- rotation can only be set to 4 available values (0, 90, 180, 270), any other value won't work. 
+- can only rotate by 90 degrees in one go for some reason, can't go from 0 straight to 180, needs 2 steps.
+- can't set screen xy position in relation to other screens as possible with Display settings menu. 
 
 
 
 ### disclaimer :
 
-i didn't write 90% this code myself, i barely know how most of it works. i just mashed various pieces of code that worked for me found on the internet and modified some parts to my needs. sharing it now with anyone that might find it useful.
+i didn't write 90% this code myself, i barely know how most of it works. i just mashed various pieces of code that worked for me found on the internet and modified some parts to my needs. works as it is. sharing it now with anyone that might find it useful.
