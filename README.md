@@ -17,18 +17,21 @@ Works with multiple monitors and all display orientation modes (landscape, lands
 
 ### usage examples (as commands or as shortcuts) :
 
-switch second screen to portrait (vertical counter clockwise) :
+switch second screen to portrait mode (rotate counter clockwise) :
 
 `powershell.exe -ExecutionPolicy Bypass -File "C:\PATH\windows-display-orientation-script.ps1" 1 270`
 
-switch second screen to portrait inverted (vertical clockwise) :
+switch second screen to portrait inverted mode (rotate clockwise) :
 
 `powershell.exe -ExecutionPolicy Bypass -File "C:\PATH\windows-display-orientation-script.ps1" 1 90`
 
-switch second screen back to landscape (horizontal) :
+switch second screen back to landscape mode (horizontal) :
 
 `powershell.exe -ExecutionPolicy Bypass -File "C:\PATH\windows-display-orientation-script.ps1" 1 0`
 
+reset all screens to default landscape mode :
+
+`powershell.exe -ExecutionPolicy Bypass -File "C:\PATH\windows-display-orientation-script.ps1"`
 
 
 ### needs 2 arguments! :
@@ -40,11 +43,12 @@ so :
 - `... windows-display-orientation-script.ps1" 0 270` means first primary display, 90 degrees ccw to vertical
 - `... windows-display-orientation-script.ps1" 1 90`  means second display, 90 degrees cw to vertical inverted
 
+running script without arguments resets all displays to default landscape orientation
+
 
 ### notes :
 
 - doesn't need to be run as admin
-- running script without setting 2 required arguments resets all displays to default orientation
 - rotation can only be set to 4 available values (0, 90, 180, 270), any other value won't work. 
 - can only rotate by 90 degrees in one go for some reason, can't go from 0 straight to 180, needs 2 steps.
 - can't set screen xy position in relation to other screens as possible with Display settings menu. 
