@@ -7,7 +7,7 @@ Script to flip screen orientation horizontal / vertical quick and easy with comm
 Works with multiple monitors and all display orientation modes (landscape, landscape inverted, portrait, portrait inverted).
 
 
-
+[Download script](https://raw.githubusercontent.com/gmiwoj/windows-screen-rotate-script.ps1/main/windows-screen-rotate-script.ps1) <-- right click, Save as
 
 
 
