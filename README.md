@@ -20,15 +20,15 @@ Because switching between vertical and horizontal using Display settings on wind
 
 switch second screen to vertical:
 
-`powershell.exe -ExecutionPolicy Bypass -File "C:\PATH_TO_SCRIPT\windows-screen-rotate-script.ps1" 1 270`
+`powershell.exe -ExecutionPolicy Bypass -File "C:\PATH\windows-screen-rotate-script.ps1" 1 270`
 
 switch second screen to vertical inverted:
 
-`powershell.exe -ExecutionPolicy Bypass -File "C:\PATH_TO_SCRIPT\windows-screen-rotate-script.ps1" 1 90`
+`powershell.exe -ExecutionPolicy Bypass -File "C:\PATH\windows-screen-rotate-script.ps1" 1 90`
 
 switch second screen back to horizontal:
 
-`powershell.exe -ExecutionPolicy Bypass -File "C:\PATH_TO_SCRIPT\windows-screen-rotate-script.ps1" 1 0`
+`powershell.exe -ExecutionPolicy Bypass -File "C:\PATH\windows-screen-rotate-script.ps1" 1 0`
 
 
 
