@@ -53,4 +53,6 @@ so :
 
 ### disclaimer :
 
-i didn't write 90% this code myself, i barely know how most of it works. i just mashed various pieces of code that worked for me i found on the internet and modified some parts to my needs as well as i was able. works as it is, no guarantees. just sharing it now with anyone that might find it useful.
+i didn't write 90% this code myself, i barely know how most of it works. i just mashed various pieces of code i've found on the internet that worked for me and modified some parts to my needs, as well as i was able. works as it is, no guarantees. 
+
+sharing it with anyone that might find it useful.
