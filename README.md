@@ -49,4 +49,4 @@ can't set screen xy position related to other screens as possible with Display s
 
 **disclaimer :**
 
-i didn't write 90% this code myself, i barely know how it works. i just mashed various pieces of code that worked for me, that i found here and there, and modified some parts to my needs.
+i didn't write 90% this code myself, i barely know how it works. i just mashed various pieces of code that worked for me, that i've found on the internet, and modified some parts to my needs.
