@@ -37,8 +37,8 @@ switch second screen back to landscape (horizontal) :
 
 so :
 
-- `... "windows-screen-rotate-script.ps1" 0 270` means first primary display, 90 degrees ccw (vertical)
-- `... "windows-screen-rotate-script.ps1" 1 90`  means second display, 90 degrees cw (vertical inverted)
+- `... windows-screen-rotate-script.ps1" 0 270` means first primary display, 90 degrees ccw (vertical)
+- `... windows-screen-rotate-script.ps1" 1 90`  means second display, 90 degrees cw (vertical inverted)
 
 
 can only rotate by 90 in one go for some reason, can't go from 0 straight to 180, needs 2 steps).
