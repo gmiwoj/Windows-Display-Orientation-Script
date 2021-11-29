@@ -50,7 +50,7 @@ running script without arguments resets all displays to default landscape orient
 
 - doesn't need to be run as admin
 - rotation can only be set to 4 available values (0, 90, 180, 270), any other value won't work. 
-- can only rotate by 90 degrees in one go for some reason, can't go from 0 straight to 180, needs 2 steps.
+- can only rotate by 90 degrees in one go for some reason, can't go from 0 straight to 180, needs 2 steps for that.
 - can't set screen xy position in relation to other screens as possible with Display settings menu. 
 - you can rename script file and keep in any folder, just use full proper path when running it
 
