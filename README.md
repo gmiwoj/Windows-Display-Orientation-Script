@@ -43,7 +43,7 @@ so :
 
 can only rotate by 90 in one go for some reason, can't go from 0 straight to 180, needs 2 steps).
 
-can't set screen xy position related to other screens as possible with Display settings menu. 
+can't set screen xy position in relation to other screens as possible with Display settings menu. 
 
 
 
