@@ -19,15 +19,15 @@ Works with multiple monitors and all display orientation modes (landscape, lands
 
 switch second screen to portrait (vertical counter clockwise) :
 
-`powershell.exe -ExecutionPolicy Bypass -File "C:\PATH\windows-screen-rotate-script.ps1" 1 270`
+`powershell.exe -ExecutionPolicy Bypass -File "C:\PATH\windows-display-orientation-script.ps1" 1 270`
 
 switch second screen to portrait inverted (vertical clockwise) :
 
-`powershell.exe -ExecutionPolicy Bypass -File "C:\PATH\windows-screen-rotate-script.ps1" 1 90`
+`powershell.exe -ExecutionPolicy Bypass -File "C:\PATH\windows-display-orientation-script.ps1" 1 90`
 
 switch second screen back to landscape (horizontal) :
 
-`powershell.exe -ExecutionPolicy Bypass -File "C:\PATH\windows-screen-rotate-script.ps1" 1 0`
+`powershell.exe -ExecutionPolicy Bypass -File "C:\PATH\windows-display-orientation-script.ps1" 1 0`
 
 
 
@@ -37,8 +37,8 @@ switch second screen back to landscape (horizontal) :
 
 so :
 
-- `... windows-screen-rotate-script.ps1" 0 270` means first primary display, 90 degrees ccw to vertical
-- `... windows-screen-rotate-script.ps1" 1 90`  means second display, 90 degrees cw to vertical inverted
+- `... windows-display-orientation-script.ps1" 0 270` means first primary display, 90 degrees ccw to vertical
+- `... windows-display-orientation-script.ps1" 1 90`  means second display, 90 degrees cw to vertical inverted
 
 
 ### notes :
@@ -48,7 +48,7 @@ so :
 - rotation can only be set to 4 available values (0, 90, 180, 270), any other value won't work. 
 - can only rotate by 90 degrees in one go for some reason, can't go from 0 straight to 180, needs 2 steps.
 - can't set screen xy position in relation to other screens as possible with Display settings menu. 
-
+- you can rename script file and keep in any folder, just use full proper path when running it
 
 
 ### disclaimer :
