@@ -12,9 +12,6 @@ Works with multiple monitors and all display orientation modes (landscape, lands
 
 
 ![preview2](https://support.content.office.net/en-us/media/96e92630-bbfe-4292-bbfc-fbb4a4908c8e.png)
-![preview2](https://www.tenforums.com/attachments/tutorials/268002d1582491524-how-change-display-orientation-windows-10-a-display_orientation.png)
-
-
 
 
 
