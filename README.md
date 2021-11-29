@@ -16,27 +16,27 @@ Because switching between vertical and horizontal using Display settings on wind
 
 
 
-**usage examples (as commands or as shortcuts):**
+**usage examples (as commands or as shortcuts) :**
 
-switch second screen to vertical:
+switch second screen to portrait (vertical counter clockwise) :
 
 `powershell.exe -ExecutionPolicy Bypass -File "C:\PATH\windows-screen-rotate-script.ps1" 1 270`
 
-switch second screen to vertical inverted:
+switch second screen to portrait inverted (vertical clockwise) :
 
 `powershell.exe -ExecutionPolicy Bypass -File "C:\PATH\windows-screen-rotate-script.ps1" 1 90`
 
-switch second screen back to horizontal:
+switch second screen back to landscape (horizontal) :
 
 `powershell.exe -ExecutionPolicy Bypass -File "C:\PATH\windows-screen-rotate-script.ps1" 1 0`
 
 
 
-**needs 2 arguments!**
-- argument 1 : display id (0 - first main screen, 1 - second screen, 2 - third etc.)
-- argument 2 : rotation angle (0 - default horizontal, 90 - vertical clockwise, 180 - upside down, 270 - vertical counter clockwise. can only rotate by 90 in one go, cant go from 0 straight to 180)
+**needs 2 arguments! :**
+- argument 1 : display id (0: first main screen, 1: second screen, 2: third etc.)
+- argument 2 : rotation angle (0: default landscape, 90: portrait inverted, 180: landscape inverted, 270: portrait. can only rotate by 90 in one go for some reason, cant go from 0 straight to 180)
 
-so:
+so :
 
 - `... "windows-screen-rotate-script.ps1" 0 270` means first primary display, 90 degrees ccw (vertical)
 - `... "windows-screen-rotate-script.ps1" 1 90`  means second display, 90 degrees cw (vertical inverted)
@@ -44,6 +44,6 @@ so:
 
 
 
-**disclaimer:**
+**disclaimer :**
 
 i didn't write 90% this code myself, i barely know how it works. i just mashed various pieces of code that worked for me, that i found here and there, and modified some parts to my needs.
