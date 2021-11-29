@@ -4,7 +4,7 @@ Windows Powershell / .NET script
 
 Powershell script to flip screen orientation horizontal / vertical quick and easy with command or shortcut icon. Because switching between vertical and horizontal using Display settings on windows takes too many clicks.
 
-Works with multiple monitors, rotates both ways. 
+Works with multiple monitors and all display orientation modes (landscape, landscape inverted, portrait, portrait inverted).
 
 
 
