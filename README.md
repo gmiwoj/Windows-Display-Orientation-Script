@@ -2,7 +2,7 @@
 
 Windows Powershell / .NET script
 
-Powershell script to flip screen orientation horizontal / vertical quick and easy with command or shortcut icon. Because switching between landscape and portrait mode using Display settings on windows takes too many clicks.
+Script to flip screen orientation horizontal / vertical quick and easy with command or shortcut icon. Because switching between landscape and portrait mode using Display settings on windows takes too many clicks.
 
 Works with multiple monitors and all display orientation modes (landscape, landscape inverted, portrait, portrait inverted).
 
@@ -18,7 +18,7 @@ Works with multiple monitors and all display orientation modes (landscape, lands
 
 
 
-**usage examples (as commands or as shortcuts) :**
+### usage examples (as commands or as shortcuts) :
 
 switch second screen to portrait (vertical counter clockwise) :
 
@@ -34,9 +34,9 @@ switch second screen back to landscape (horizontal) :
 
 
 
-**needs 2 arguments! :**
+### needs 2 arguments! :
 - argument 1 : display id (0: first main screen, 1: second screen, 2: third etc.)
-- argument 2 : rotation angle (0: default landscape, 90: portrait inverted, 180: landscape inverted, 270: portrait. can only rotate by 90 in one go for some reason, cant go from 0 straight to 180)
+- argument 2 : rotation angle (0: default landscape, 90: portrait inverted, 180: landscape inverted, 270: portrait. 
 
 so :
 
@@ -44,9 +44,12 @@ so :
 - `... "windows-screen-rotate-script.ps1" 1 90`  means second display, 90 degrees cw (vertical inverted)
 
 
+can only rotate by 90 in one go for some reason, can't go from 0 straight to 180, needs 2 steps).
+
 can't set screen xy position related to other screens as possible with Display settings menu. 
 
 
-**disclaimer :**
+
+### disclaimer :
 
 i didn't write 90% this code myself, i barely know how it works. i just mashed various pieces of code that worked for me, that i've found on the internet, and modified some parts to my needs.
