@@ -1,4 +1,4 @@
-## windows-screen-rotate-script.ps1
+## Windows Display Orientation Script
 
 Windows Powershell / .NET script
 
@@ -7,7 +7,7 @@ Instantly flip screen orientation horizontal / vertical with a shortcut icon or 
 Works with multiple monitors and all display orientation modes (landscape, landscape inverted, portrait, portrait inverted).
 
 
-[Download script](https://raw.githubusercontent.com/gmiwoj/windows-screen-rotate-script.ps1/main/windows-screen-rotate-script.ps1) <-- right click, Save as
+[Download script](https://raw.githubusercontent.com/gmiwoj/Windows-Display-Orientation-Script/main/windows-display-orientation-script.ps1) <-- right click, Save as
 
 
 
