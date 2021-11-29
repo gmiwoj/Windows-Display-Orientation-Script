@@ -2,9 +2,11 @@
 
 Windows Powershell / .NET script
 
-Flip screen rotation horizontal / vertical quick and easy. Create shortcut to rotate screen 90 degrees quick and easy. Works with dual screen or multiple monitors, rotates both ways. 
+Powershell script to flip screen orientation horizontal / vertical quick and easy with command or shortcut icon. Because switching between vertical and horizontal using Display settings on windows takes too many clicks.
 
-Because switching between vertical and horizontal using Display settings on windows takes too many clicks.
+Works with multiple monitors, rotates both ways. 
+
+
 
 
 
