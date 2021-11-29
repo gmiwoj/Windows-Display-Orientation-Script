@@ -16,7 +16,7 @@ Because switching between vertical and horizontal using Display settings on wind
 
 
 
-**usage examples (as command or shortcut):**
+**usage examples (as command or as shortcut):**
 
 switch second screen to vertical inverted:
 
