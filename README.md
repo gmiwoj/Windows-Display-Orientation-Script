@@ -34,7 +34,7 @@ switch second screen back to horizontal:
 
 **needs 2 arguments!**
 - argument 1 : display id (0 - first main screen, 1 - second screen, 2 - third etc.)
-- argument 2 : rotation angle (0 - normal, 90 - vertical clockwise, 180 - upside down, 270 - vertical counter clockwise. can only rotate by 90 in one go, cant go from 0 straight to 180)
+- argument 2 : rotation angle (0 - default horizontal, 90 - vertical clockwise, 180 - upside down, 270 - vertical counter clockwise. can only rotate by 90 in one go, cant go from 0 straight to 180)
 
 so:
 
