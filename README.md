@@ -37,8 +37,8 @@ switch second screen back to landscape (horizontal) :
 
 so :
 
-- `... windows-screen-rotate-script.ps1" 0 270` means first primary display, 90 degrees ccw (vertical)
-- `... windows-screen-rotate-script.ps1" 1 90`  means second display, 90 degrees cw (vertical inverted)
+- `... windows-screen-rotate-script.ps1" 0 270` means first primary display, 90 degrees ccw to vertical
+- `... windows-screen-rotate-script.ps1" 1 90`  means second display, 90 degrees cw to vertical inverted
 
 
 ### notes :
