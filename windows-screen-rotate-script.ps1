@@ -282,4 +282,12 @@ else
 { 
 	[RotateDisplayPowerShell.RotateDisplay]::Main("0,0")
 	[RotateDisplayPowerShell.RotateDisplay]::Main("1,0")
+	[RotateDisplayPowerShell.RotateDisplay]::Main("2,0")
+	[RotateDisplayPowerShell.RotateDisplay]::Main("3,0")
+	[RotateDisplayPowerShell.RotateDisplay]::Main("4,0")
+	[RotateDisplayPowerShell.RotateDisplay]::Main("5,0")
+	[RotateDisplayPowerShell.RotateDisplay]::Main("6,0")	
+	[RotateDisplayPowerShell.RotateDisplay]::Main("7,0")	
+	[RotateDisplayPowerShell.RotateDisplay]::Main("8,0")	
+	[RotateDisplayPowerShell.RotateDisplay]::Main("9,0")	
 }
