@@ -36,7 +36,7 @@ reset all screens to default landscape mode :
 
 ### needs 2 arguments! :
 - argument 1 : display id (0: first main screen, 1: second screen, 2: third etc.)
-- argument 2 : rotation angle (0: default landscape, 90: portrait inverted, 180: landscape inverted, 270: portrait) 
+- argument 2 : rotation (0: default landscape, 90: portrait inverted, 180: landscape inverted, 270: portrait) 
 
 so :
 
